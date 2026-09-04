@@ -1,9 +1,15 @@
-# Delivery Orders Data Analysis
+# Delivery Orders EDA
 
 ## Overview
-Exploratory Data Analysis (EDA) performed on a delivery orders dataset using Python and JupyterLab.
+
+This project performs Exploratory Data Analysis (EDA) on a delivery
+orders dataset using Python and JupyterLab.
+
+The analysis focuses on understanding delivery performance, order
+patterns, vendors, delivery distance, weather conditions, and revenue.
 
 ## Tools & Technologies
+
 - Python
 - JupyterLab
 - Pandas
@@ -12,16 +18,32 @@ Exploratory Data Analysis (EDA) performed on a delivery orders dataset using Pyt
 - Seaborn
 
 ## Analysis Performed
-- Data cleaning and preprocessing
-- Exploratory data analysis
-- Statistical analysis
-- Data visualization
-- Analysis of delivery time and delays
-- Analysis of order value, distance, weather, and customer ratings
 
-## Dataset
-The dataset contains 3,000 delivery orders.
+- Dataset inspection and understanding
+- Data type conversion
+- Missing value handling
+- Duplicate record checking
+- Univariate analysis
+- Bivariate analysis
+- Delivery time categorization
+- Delivery distance categorization
+- Vendor order analysis
+- Weekday order analysis
+- Order type analysis
+- Weather vs delivery analysis
+- Distance vs delivery time analysis
+- Monthly revenue analysis
+- Daily order analysis
 
-## Project Files
-- `delivery_orders_eda.ipynb` — Jupyter Notebook containing the complete analysis
-- `delivery_orders_dataset.csv` — Dataset
+## Visualizations
+
+- Bar charts
+- Pie charts
+- Scatter plots
+- Line plots
+- Histograms
+
+## Project File
+
+`Delivery_orders_EDA.ipynb` contains the complete analysis,
+visualizations, and Python code.
